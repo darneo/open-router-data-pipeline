@@ -1,0 +1,343 @@
+model_id,name,provider,created,context_length,input_modalities,output_modalities,prompt_price,created_at,input_cost_per_million,price_band
+heygen/heygen-decision-1-turbo,HeyGen: HeyGen Decision Turbo,heygen,1794530513,262144,"text, image",decisions,9e-08,2026-11-13 00:41:53+00:00,0.09,below_median
+perplexity/pplx-decider-flash-v1.3:free,Perplexity: Decider Flash V1.3 (free),perplexity,1794507466,262144,"text, image",decisions,0.0,2026-11-12 18:17:46+00:00,0.0,free
+perplexity/pplx-decider-v1.3:free,Perplexity: Decider V1.3 (free),perplexity,1794507462,262144,"text, image",decisions,0.0,2026-11-12 18:17:42+00:00,0.0,free
+google/gemini-4-hydrogen,Google: Gemini 4 Hydrogen,google,1794506460,1048576,"audio, file, image, text, video",text,1.5e-06,2026-11-12 18:01:00+00:00,1.5,at_or_above_median
+google/gemini-4-hydrogen:batch,Google: Gemini 4 Hydrogen (batch),google,1794506460,1048576,"audio, file, image, text, video",text,7.5e-07,2026-11-12 18:01:00+00:00,0.75,at_or_above_median
+google/gemini-decision-1,Google: Gemini Decision 1,google,1794402686,262144,"text, image, audio, video, file",decisions,1e-07,2026-11-11 13:11:26+00:00,0.09999999999999999,below_median
+baidu/ernie-5.5-flash-preview:free,Baidu: ERNIE-5.5-Flash-Preview (free),baidu,1794333533,1024000,text,text,0.0,2026-11-10 17:58:53+00:00,0.0,free
+baidu/ernie-light-dt-1.0-intl,Baidu: ERNIE-Light-DT-1.0,baidu,1794331260,1024000,text,text,1.13e-06,2026-11-10 17:21:00+00:00,1.13,at_or_above_median
+google/gemini-4-carbon,Google: Gemini 4 Carbon,google,1794326871,1048576,"audio, file, image, text, video",text,2e-06,2026-11-10 16:07:51+00:00,2.0,at_or_above_median
+google/gemini-4-carbon:batch,Google: Gemini 4 Carbon (batch),google,1794326871,1048576,"audio, file, image, text, video",text,1e-06,2026-11-10 16:07:51+00:00,1.0,at_or_above_median
+nex-agi/nex-n2.6,Nex AGI: Nex-N2.6,nex-agi,1794282379,262144,"text, image",text,1.2e-07,2026-11-10 03:46:19+00:00,0.12,below_median
+nace-ai/drex-max-finance,Nace.AI: Drex Max Finance,nace-ai,1794275820,262144,"text, image",decisions,6e-08,2026-11-10 01:57:00+00:00,0.06,below_median
+thinkingmachines/inkling-2-small,Thinking Machines: Inkling 2 Small,thinkingmachines,1794261847,1048576,"text, image",text,3e-07,2026-11-09 22:04:07+00:00,0.3,at_or_above_median
+thinkingmachines/inkling-2-small:free,Thinking Machines: Inkling 2 Small (free),thinkingmachines,1794261847,1048576,"text, image",text,0.0,2026-11-09 22:04:07+00:00,0.0,free
+anthropic/claude-fable-5.2,Anthropic: Claude Fable 5.2,anthropic,1794253781,1000000,"text, image, file",text,8e-06,2026-11-09 19:49:41+00:00,8.0,at_or_above_median
+anthropic/claude-fable-5.2:batch,Anthropic: Claude Fable 5.2 (batch),anthropic,1794253781,1000000,"text, image, file",text,4e-06,2026-11-09 19:49:41+00:00,4.0,at_or_above_median
+meta/muse-ember,Meta: Muse Ember,meta,1794247648,1048576,"text, image, video, file, audio",text,1e-07,2026-11-09 18:07:28+00:00,0.09999999999999999,below_median
+liquid/lfm-3-1.7b,LiquidAI: LFM3-1.7B,liquid,1794009477,262144,text,text,8e-08,2026-11-06 23:57:57+00:00,0.08,below_median
+liquid/lfm-3-1.7b:free,LiquidAI: LFM3-1.7B (free),liquid,1794009477,262144,text,text,0.0,2026-11-06 23:57:57+00:00,0.0,free
+openai/gpt-image-2.6-sunburst,OpenAI: GPT Image 2.6 Sunburst,openai,1793835357,400000,"text, image",image,8e-06,2026-11-04 23:35:57+00:00,8.0,at_or_above_median
+openai/gpt-image-2.6-flare,OpenAI: GPT Image 2.6 Flare,openai,1793835351,400000,"text, image",image,8e-06,2026-11-04 23:35:51+00:00,8.0,at_or_above_median
+ricursiveai/ripple-65b-preview,Ricursive: Ripple 65B Preview,ricursiveai,1793818990,1048576,text,text,1e-07,2026-11-04 19:03:10+00:00,0.09999999999999999,below_median
+tencent/hy4,Tencent: Hy4,tencent,1793766031,1048576,"text, image",text,4.17e-07,2026-11-04 04:20:31+00:00,0.417,at_or_above_median
+motif-technologies/motif-3,Motif Technologies: Motif 3,motif-technologies,1793655334,262144,text,text,3e-07,2026-11-02 21:35:34+00:00,0.3,at_or_above_median
+z-ai/glm-5.3-flashx-legal,Z.ai: GLM 5.3 FlashX Legal,z-ai,1793626154,1048576,"text, image, video",text,3.7e-07,2026-11-02 13:29:14+00:00,0.37,at_or_above_median
+particle-ai/particle-1,Particle AI: Particle-1,particle-ai,1793207893,1048576,"text, image",text,5e-08,2026-10-28 17:18:13+00:00,0.049999999999999996,below_median
+particle-ai/particle-1:free,Particle AI: Particle-1 (free),particle-ai,1793207893,1048576,"text, image",text,0.0,2026-10-28 17:18:13+00:00,0.0,free
+openai/gpt-6.1-terra-pro,OpenAI: GPT-6.1 Terra Pro,openai,1793038556,1050000,"file, image, text",text,1e-06,2026-10-26 18:15:56+00:00,1.0,at_or_above_median
+openai/gpt-6.1-terra-pro:batch,OpenAI: GPT-6.1 Terra Pro (batch),openai,1793038556,1050000,"file, image, text",text,5e-07,2026-10-26 18:15:56+00:00,0.5,at_or_above_median
+openai/gpt-6.1-terra,OpenAI: GPT-6.1 Terra,openai,1793038409,1050000,"file, image, text",text,1e-06,2026-10-26 18:13:29+00:00,1.0,at_or_above_median
+openai/gpt-6.1-terra:batch,OpenAI: GPT-6.1 Terra (batch),openai,1793038409,1050000,"file, image, text",text,5e-07,2026-10-26 18:13:29+00:00,0.5,at_or_above_median
+moonshotai/kimi-k3.1-pro,MoonshotAI: Kimi K3.1 Pro,moonshotai,1792778188,1048576,"text, image, video",text,2e-06,2026-10-23 17:56:28+00:00,2.0,at_or_above_median
+moonshotai/kimi-k3.1-pro:batch,MoonshotAI: Kimi K3.1 Pro (batch),moonshotai,1792778188,1048576,"text, image, video",text,7e-07,2026-10-23 17:56:28+00:00,0.7,at_or_above_median
+recursive/flint-v1.0:free,Recursive: Flint (free),recursive,1792622765,262144,text,text,0.0,2026-10-21 22:46:05+00:00,0.0,free
+nace-ai/drex-max,Nace.AI: Drex Max,nace-ai,1792607412,262144,"text, image",decisions,6e-08,2026-10-21 18:30:12+00:00,0.06,below_median
+minimax/minimax-m3.1-flash,MiniMax: MiniMax M3.1 Flash,minimax,1792379569,1048576,"text, image, video",text,1.5e-07,2026-10-19 03:12:49+00:00,0.15,below_median
+deepseek/deepseek-v4.1-flash-1017,DeepSeek: DeepSeek V4.1 Flash 1017,deepseek,1792225624,1048576,"text, image",text,3.8e-08,2026-10-17 08:27:04+00:00,0.038000000000000006,below_median
+deepseek/deepseek-v4.1-flash-1017:batch,DeepSeek: DeepSeek V4.1 Flash 1017 (batch),deepseek,1792225624,1048576,"text, image",text,5e-08,2026-10-17 08:27:04+00:00,0.049999999999999996,below_median
+elorian/glimpse,Elorian: Glimpse,elorian,1792206629,262144,"text, image, video",text,6e-07,2026-10-17 03:10:29+00:00,0.6,at_or_above_median
+perplexity/pplx-decider-flash-v1.2,Perplexity: Decider Flash V1.2,perplexity,1792183496,262144,"text, image",decisions,1e-08,2026-10-16 20:44:56+00:00,0.01,below_median
+perplexity/pplx-decider-v1.2,Perplexity: Decider V1.2,perplexity,1792183495,262144,"text, image",decisions,2e-08,2026-10-16 20:44:55+00:00,0.02,below_median
+~perplexity/pplx-decider-flash-latest,Perplexity: Decider Flash Latest,~perplexity,1792173791,262144,"text, image",decisions,1e-08,2026-10-16 18:03:11+00:00,0.01,below_median
+reflection/beam-1.0-501b-a23b,Reflection: Beam 1.0 501B A23B,reflection,1792160499,1048576,text,text,3e-07,2026-10-16 14:21:39+00:00,0.3,at_or_above_median
+prism-ml/ternary-bonsai-2-9b,PrismML: Ternary Bonsai 2 9B,prism-ml,1792130995,262144,"text, image",text,8e-08,2026-10-16 06:09:55+00:00,0.08,below_median
+meta/muse-spark-open,Meta: Muse Spark Open,meta,1792087069,1048576,"text, image, video, file, audio",text,1.25e-06,2026-10-15 17:57:49+00:00,1.25,at_or_above_median
+nvidia/nemotron-3.5-super-vl,NVIDIA: Nemotron 3.5 Super VL,nvidia,1792076662,1048576,"text, image, video",text,1.5e-07,2026-10-15 15:04:22+00:00,0.15,below_median
+nvidia/nemotron-3.5-super-vl:free,NVIDIA: Nemotron 3.5 Super VL (free),nvidia,1792076662,1000000,"text, image, video",text,0.0,2026-10-15 15:04:22+00:00,0.0,free
+unbiased/pareto-26.10,Pareto 26.10,unbiased,1792073620,1048576,"text, image",text,8e-07,2026-10-15 14:13:40+00:00,0.7999999999999999,at_or_above_median
+typesafe/jev-1.14,TypeSafe: Jev 1.14,typesafe,1792021417,262144,"text, image",decisions,4.2e-08,2026-10-14 23:43:37+00:00,0.041999999999999996,below_median
+~perplexity/pplx-decider-latest,Perplexity: Decider Latest,~perplexity,1792003377,262144,"text, image",decisions,2e-08,2026-10-14 18:42:57+00:00,0.02,below_median
+~unbiased/pareto-latest,Pareto Latest,~unbiased,1791933050,1048576,"text, image",text,8e-07,2026-10-13 23:10:50+00:00,0.7999999999999999,at_or_above_median
+unbiased/pareto-26.9,Pareto 26.9,unbiased,1791930537,262144,"text, image",text,2.5e-06,2026-10-13 22:28:57+00:00,2.5,at_or_above_median
+google/gemini-4-argon,Google: Gemini 4 Argon,google,1791907477,1048576,"audio, file, image, text, video",text,2e-06,2026-10-13 16:04:37+00:00,2.0,at_or_above_median
+google/gemini-4-argon:batch,Google: Gemini 4 Argon (batch),google,1791907477,1048576,"audio, file, image, text, video",text,1e-06,2026-10-13 16:04:37+00:00,1.0,at_or_above_median
+scaledown/summarize,ScaleDown: Summarize,scaledown,1791893360,1000000,"text, image, file",text,4e-08,2026-10-13 12:09:20+00:00,0.04,below_median
+scaledown/extract,ScaleDown: Extract,scaledown,1791893351,1000000,"text, image, file",text,4e-08,2026-10-13 12:09:11+00:00,0.04,below_median
+scaledown/classify-1,ScaleDown: Classify-1,scaledown,1791893334,1000000,"text, image, file",decisions,4e-08,2026-10-13 12:08:54+00:00,0.04,below_median
+meta/muse-wonder,Meta: Muse Wonder,meta,1791807945,1048576,"text, image, video, file, audio",text,4e-06,2026-10-12 12:25:45+00:00,4.0,at_or_above_median
+stepfun/step-5-preview,StepFun: Step 5 Preview,stepfun,1791462849,1000000,"text, image, video",text,1e-06,2026-10-08 12:34:09+00:00,1.0,at_or_above_median
+upstage/solar-decide-flash,Upstage: Solar Decide Flash,upstage,1791419983,524288,text,decisions,5e-08,2026-10-08 00:39:43+00:00,0.049999999999999996,below_median
+anthropic/claude-haiku-5.5,Anthropic: Claude Haiku 5.5,anthropic,1791397883,1000000,"text, image, file",text,1e-07,2026-10-07 18:31:23+00:00,0.09999999999999999,below_median
+anthropic/claude-haiku-5.5:batch,Anthropic: Claude Haiku 5.5 (batch),anthropic,1791397883,1000000,"text, image, file",text,5e-08,2026-10-07 18:31:23+00:00,0.049999999999999996,below_median
+openai/gpt-6-luna-decisions,OpenAI: GPT-6 Luna Decisions,openai,1791321558,1050000,"text, image",decisions,1e-07,2026-10-06 21:19:18+00:00,0.09999999999999999,below_median
+mistralai/mistral-large-4-0,Mistral: Mistral Large 4,mistralai,1791294122,1048576,"text, image",text,7e-07,2026-10-06 13:42:02+00:00,0.7,at_or_above_median
+inclusionai/ling-3.1-flash,inclusionAI: Ling 3.1 Flash,inclusionai,1790950024,1000000,text,text,4.5e-08,2026-10-02 14:07:04+00:00,0.045,below_median
+unbiased/pareto-26.10-preview,Pareto 26.10 Preview,unbiased,1790863623,1048576,"text, image",text,8e-07,2026-10-01 14:07:03+00:00,0.7999999999999999,at_or_above_median
+openai/gpt-6.1-sol-pro,OpenAI: GPT-6.1 Sol Pro,openai,1790702886,1050000,"file, image, text",text,2e-06,2026-09-29 17:28:06+00:00,2.0,at_or_above_median
+openai/gpt-6.1-sol-pro:batch,OpenAI: GPT-6.1 Sol Pro (batch),openai,1790702886,1050000,"file, image, text",text,1e-06,2026-09-29 17:28:06+00:00,1.0,at_or_above_median
+openai/gpt-6.1-sol,OpenAI: GPT-6.1 Sol,openai,1790702882,1050000,"file, image, text",text,2e-06,2026-09-29 17:28:02+00:00,2.0,at_or_above_median
+openai/gpt-6.1-sol:batch,OpenAI: GPT-6.1 Sol (batch),openai,1790702882,1050000,"file, image, text",text,1e-06,2026-09-29 17:28:02+00:00,1.0,at_or_above_median
+anthropic/claude-sonnet-5.5,Anthropic: Claude Sonnet 5.5,anthropic,1790618686,1000000,"text, image, file",text,2e-06,2026-09-28 18:04:46+00:00,2.0,at_or_above_median
+anthropic/claude-sonnet-5.5:batch,Anthropic: Claude Sonnet 5.5 (batch),anthropic,1790618686,1000000,"text, image, file",text,1e-06,2026-09-28 18:04:46+00:00,1.0,at_or_above_median
+upstage/solar-decide,Upstage: Solar Decide,upstage,1790592657,524288,text,decisions,5e-08,2026-09-28 10:50:57+00:00,0.049999999999999996,below_median
+fireworks/ember-1,Fireworks: Ember-1,fireworks,1790208461,1048576,"text, image",text,3e-06,2026-09-24 00:07:41+00:00,3.0,at_or_above_median
+z-ai/glm-5.3-prime,Z.ai: GLM 5.3 Prime,z-ai,1790199651,1000000,text,text,2.8e-06,2026-09-23 21:40:51+00:00,2.8,at_or_above_median
+qwen/qwen3.8-max-prime,Qwen: Qwen3.8 Max Prime,qwen,1790191228,1000000,"text, image, video",text,4e-06,2026-09-23 19:20:28+00:00,4.0,at_or_above_median
+aion-labs/aion-3.5-mini,AionLabs: Aion 3.5 Mini,aion-labs,1790170962,262144,text,text,7e-07,2026-09-23 13:42:42+00:00,0.7,at_or_above_median
+aion-labs/aion-3.5,AionLabs: Aion 3.5,aion-labs,1790170961,262144,text,text,3e-06,2026-09-23 13:42:41+00:00,3.0,at_or_above_median
+upstage/solar-mini4,Upstage: Solar Mini 4,upstage,1790160358,524288,text,text,5e-08,2026-09-23 10:45:58+00:00,0.049999999999999996,below_median
+openai/gpt-6-luna-pro,OpenAI: GPT-6 Luna Pro,openai,1790100791,1050000,"file, image, text",text,1e-07,2026-09-22 18:13:11+00:00,0.09999999999999999,below_median
+openai/gpt-6-luna-pro:batch,OpenAI: GPT-6 Luna Pro (batch),openai,1790100791,1050000,"file, image, text",text,5e-08,2026-09-22 18:13:11+00:00,0.049999999999999996,below_median
+openai/gpt-6-luna,OpenAI: GPT-6 Luna,openai,1790100786,1050000,"file, image, text",text,1e-07,2026-09-22 18:13:06+00:00,0.09999999999999999,below_median
+openai/gpt-6-luna:batch,OpenAI: GPT-6 Luna (batch),openai,1790100786,1050000,"file, image, text",text,5e-08,2026-09-22 18:13:06+00:00,0.049999999999999996,below_median
+openai/gpt-6-sol-pro,OpenAI: GPT-6 Sol Pro,openai,1790100781,1050000,"file, image, text",text,2e-06,2026-09-22 18:13:01+00:00,2.0,at_or_above_median
+openai/gpt-6-sol-pro:batch,OpenAI: GPT-6 Sol Pro (batch),openai,1790100781,1050000,"file, image, text",text,1e-06,2026-09-22 18:13:01+00:00,1.0,at_or_above_median
+openai/gpt-6-sol,OpenAI: GPT-6 Sol,openai,1790100775,1050000,"file, image, text",text,2e-06,2026-09-22 18:12:55+00:00,2.0,at_or_above_median
+openai/gpt-6-sol:batch,OpenAI: GPT-6 Sol (batch),openai,1790100775,1050000,"file, image, text",text,1e-06,2026-09-22 18:12:55+00:00,1.0,at_or_above_median
+anthropic/claude-opus-5.5,Anthropic: Claude Opus 5.5,anthropic,1790094732,1000000,"text, image, file",text,4e-06,2026-09-22 16:32:12+00:00,4.0,at_or_above_median
+anthropic/claude-opus-5.5:batch,Anthropic: Claude Opus 5.5 (batch),anthropic,1790094732,1000000,"text, image, file",text,2e-06,2026-09-22 16:32:12+00:00,2.0,at_or_above_median
+xiaomi/mimo-v2.6-pro-ultraspeed,Xiaomi: MiMo-V2.6-Pro-UltraSpeed,xiaomi,1790021267,1048576,"text, image, video, audio",text,4.35e-06,2026-09-21 20:07:47+00:00,4.35,at_or_above_median
+xiaomi/mimo-v2.6-flash,Xiaomi: MiMo-V2.6-Flash,xiaomi,1790021264,1050000,"text, image, video, audio",text,1.4e-07,2026-09-21 20:07:44+00:00,0.14,below_median
+xiaomi/mimo-v2.6-pro,Xiaomi: MiMo-V2.6-Pro,xiaomi,1790021259,1050000,"text, image, video, audio",text,4.35e-07,2026-09-21 20:07:39+00:00,0.435,at_or_above_median
+x-ai/grok-4.7,SpaceXAI: Grok 4.7,x-ai,1790007541,500000,"text, image, file",text,2e-06,2026-09-21 16:19:01+00:00,2.0,at_or_above_median
+x-ai/grok-4.7:batch,SpaceXAI: Grok 4.7 (batch),x-ai,1790007541,500000,"text, image, file",text,1.6e-06,2026-09-21 16:19:01+00:00,1.5999999999999999,at_or_above_median
+qwen/qwen3.8-omni-flash,Qwen: Qwen3.8 Omni Flash,qwen,1789959954,1000000,"text, image, audio, video",text,1.5e-07,2026-09-21 03:05:54+00:00,0.15,below_median
+prism-ml/ternary-bonsai-2-27b,PrismML: Ternary Bonsai 2 27B,prism-ml,1789754046,262144,"text, image",text,7.5e-08,2026-09-18 17:54:06+00:00,0.075,below_median
+z-ai/glm-5.3-flashx,Z.ai: GLM 5.3 FlashX,z-ai,1789744020,1048576,"text, image, video",text,3.7e-07,2026-09-18 15:07:00+00:00,0.37,at_or_above_median
+~typesafe/jev-latest,TypeSafe: Jev Latest,~typesafe,1789689685,262144,"text, image",decisions,4.2e-08,2026-09-18 00:01:25+00:00,0.041999999999999996,below_median
+typesafe/jev-1.13,TypeSafe: Jev 1.13,typesafe,1789689684,262144,"text, image",decisions,4.2e-08,2026-09-18 00:01:24+00:00,0.041999999999999996,below_median
+~deepseek/deepseek-pro-latest,DeepSeek: DeepSeek Pro Latest,~deepseek,1789399174,1048576,text,text,9.99e-08,2026-09-14 15:19:34+00:00,0.0999,below_median
+~deepseek/deepseek-flash-latest,DeepSeek: DeepSeek Flash Latest,~deepseek,1789399150,1048576,"text, image",text,3.8e-08,2026-09-14 15:19:10+00:00,0.038000000000000006,below_median
+~openai/gpt-astra-latest,OpenAI: GPT Astra Latest,~openai,1789130932,1050000,"file, image, text",text,1e-05,2026-09-11 12:48:52+00:00,10.0,at_or_above_median
+~openai/gpt-sol-latest,OpenAI: GPT Sol Latest,~openai,1789130928,1050000,"file, image, text",text,2e-06,2026-09-11 12:48:48+00:00,2.0,at_or_above_median
+~openai/gpt-terra-latest,OpenAI: GPT Terra Latest,~openai,1789130925,1050000,"file, image, text",text,1e-06,2026-09-11 12:48:45+00:00,1.0,at_or_above_median
+~openai/gpt-luna-latest,OpenAI: GPT Luna Latest,~openai,1789130922,1050000,"file, image, text",text,1e-07,2026-09-11 12:48:42+00:00,0.09999999999999999,below_median
+sakana/fugu-ultra-v2,Sakana: Fugu Ultra v2,sakana,1789105383,1000000,"text, image, file",text,5e-06,2026-09-11 05:43:03+00:00,5.0,at_or_above_median
+sakana/fugu-max,Sakana: Fugu Max,sakana,1789104771,1000000,"text, image, file",text,2e-06,2026-09-11 05:32:51+00:00,2.0,at_or_above_median
+deepseek/deepseek-v4.1-flash,DeepSeek: DeepSeek V4.1 Flash,deepseek,1789021285,1048576,"text, image",text,3e-07,2026-09-10 06:21:25+00:00,0.3,at_or_above_median
+deepseek/deepseek-v4.1-flash:batch,DeepSeek: DeepSeek V4.1 Flash (batch),deepseek,1789021285,1048576,"text, image",text,1.12e-07,2026-09-10 06:21:25+00:00,0.112,below_median
+openai/gpt-image-2.5-sunburst,OpenAI: GPT Image 2.5 Sunburst,openai,1788916368,400000,"text, image",image,8e-06,2026-09-09 01:12:48+00:00,8.0,at_or_above_median
+openai/gpt-image-2.5-flare,OpenAI: GPT Image 2.5 Flare,openai,1788916350,400000,"text, image",image,8e-06,2026-09-09 01:12:30+00:00,8.0,at_or_above_median
+nex-agi/nex-n2.5-mini,Nex AGI: Nex-N2.5-Mini,nex-agi,1788890061,262144,"text, image",text,2.5e-08,2026-09-08 17:54:21+00:00,0.024999999999999998,below_median
+nex-agi/nex-n2.5-pro,Nex AGI: Nex-N2.5-Pro,nex-agi,1788890050,262144,"text, image",text,7.5e-08,2026-09-08 17:54:10+00:00,0.075,below_median
+openai/gpt-6-astra,OpenAI: GPT-6 Astra,openai,1788552838,1050000,"file, image, text",text,1e-05,2026-09-04 20:13:58+00:00,10.0,at_or_above_median
+openai/gpt-6-astra:batch,OpenAI: GPT-6 Astra (batch),openai,1788552838,1050000,"file, image, text",text,5e-06,2026-09-04 20:13:58+00:00,5.0,at_or_above_median
+openai/gpt-6-astra-pro,OpenAI: GPT-6 Astra Pro,openai,1788552835,1050000,"file, image, text",text,1e-05,2026-09-04 20:13:55+00:00,10.0,at_or_above_median
+openai/gpt-6-astra-pro:batch,OpenAI: GPT-6 Astra Pro (batch),openai,1788552835,1050000,"file, image, text",text,5e-06,2026-09-04 20:13:55+00:00,5.0,at_or_above_median
+qwen/qwen3.8-max-0902,Qwen: Qwen3.8 Max (0902),qwen,1788469704,1000000,"text, image, video",text,2e-06,2026-09-03 21:08:24+00:00,2.0,at_or_above_median
+qwen/qwen3.8-max-0902:batch,Qwen: Qwen3.8 Max (0902) (batch),qwen,1788469704,262144,"text, image, video",text,1.15e-06,2026-09-03 21:08:24+00:00,1.15,at_or_above_median
+meta/muse-spark-1.3-contributor,Meta: Muse Spark 1.3 Contributor,meta,1788381519,1048576,"text, image, video, file",text,1e-07,2026-09-02 20:38:39+00:00,0.09999999999999999,below_median
+meta/muse-spark-1.3,Meta: Muse Spark 1.3,meta,1788378359,1048576,"text, image, video, file",text,1.25e-06,2026-09-02 19:45:59+00:00,1.25,at_or_above_median
+google/gemini-3.8-flash,Google: Gemini 3.8 Flash,google,1788362056,1048576,"text, image, video, file, audio",text,8.25e-07,2026-09-02 15:14:16+00:00,0.8250000000000001,at_or_above_median
+google/gemini-3.8-flash:batch,Google: Gemini 3.8 Flash (batch),google,1788362056,1048576,"text, image, video, file, audio",text,3.75e-07,2026-09-02 15:14:16+00:00,0.375,at_or_above_median
+anthropic/claude-fable-5.1,Anthropic: Claude Fable 5.1,anthropic,1788285838,1000000,"text, image, file",text,1e-05,2026-09-01 18:03:58+00:00,10.0,at_or_above_median
+anthropic/claude-fable-5.1:batch,Anthropic: Claude Fable 5.1 (batch),anthropic,1788285838,1000000,"text, image, file",text,5e-06,2026-09-01 18:03:58+00:00,5.0,at_or_above_median
+tencent/hy4-preview,Tencent: Hy4 preview,tencent,1787897375,1048576,text,text,8.34e-07,2026-08-28 06:09:35+00:00,0.834,at_or_above_median
+~z-ai/glm-flash-latest,Z.ai: GLM Flash Latest,~z-ai,1787817633,1048576,"text, image, video",text,3.99e-08,2026-08-27 08:00:33+00:00,0.0399,below_median
+qwen/qwen3.8-flash,Qwen: Qwen3.8 Flash,qwen,1787773060,1000000,"text, image, video",text,1.5e-07,2026-08-26 19:37:40+00:00,0.15,below_median
+z-ai/glm-5.3-flash,Z.ai: GLM 5.3 Flash,z-ai,1787752741,1048576,"text, image, video",text,3.99e-08,2026-08-26 13:59:01+00:00,0.0399,below_median
+z-ai/glm-5.3-flash:batch,Z.ai: GLM 5.3 Flash (batch),z-ai,1787752741,1048576,"text, image, video",text,5e-08,2026-08-26 13:59:01+00:00,0.049999999999999996,below_median
+meta/muse-spark-1.2-contributor,Meta: Muse Spark 1.2 Contributor,meta,1787336476,1048576,"text, image, video, file",text,1e-07,2026-08-21 18:21:16+00:00,0.09999999999999999,below_median
+deepseek/deepseek-v4-flash-vision-exp,DeepSeek: DeepSeek V4 Flash Vision Exp,deepseek,1787311563,1048576,"text, image",text,4.4e-07,2026-08-21 11:26:03+00:00,0.44,at_or_above_median
+~z-ai/glm-latest,Z.ai: GLM Latest,~z-ai,1787151053,1048576,text,text,6.99e-08,2026-08-19 14:50:53+00:00,0.0699,below_median
+z-ai/glm-5.3,Z.ai: GLM 5.3,z-ai,1787086655,1048576,text,text,8.4e-08,2026-08-18 20:57:35+00:00,0.08399999999999999,below_median
+z-ai/glm-5.3:batch,Z.ai: GLM 5.3 (batch),z-ai,1787086655,1048576,text,text,4.5e-07,2026-08-18 20:57:35+00:00,0.44999999999999996,at_or_above_median
+qwen/qwen3.8-27b,Qwen: Qwen3.8 27B,qwen,1786722910,1048575,"text, image, video",text,1.5e-07,2026-08-14 15:55:10+00:00,0.15,below_median
+qwen/qwen3.8-27b:batch,Qwen: Qwen3.8 27B (batch),qwen,1786722910,262144,"text, image, video",text,1.6e-07,2026-08-14 15:55:10+00:00,0.16,below_median
+dots-studio/dots-3-note-preview:free,Dots Studio: Dots3-Note Preview (free),dots-studio,1786680361,512000,"text, image",text,0.0,2026-08-14 04:06:01+00:00,0.0,free
+google/gemini-3.7-flash,Google: Gemini 3.7 Flash,google,1786640581,1048576,"text, image, video, file, audio",text,7.5e-07,2026-08-13 17:03:01+00:00,0.75,at_or_above_median
+google/gemini-3.7-flash:batch,Google: Gemini 3.7 Flash (batch),google,1786640581,1048576,"text, image, video, file, audio",text,3.75e-07,2026-08-13 17:03:01+00:00,0.375,at_or_above_median
+bytedance-seed/seed-2-1-turbo,ByteDance Seed: Seed 2.1 Turbo,bytedance-seed,1786552176,262144,"text, image, video",text,5e-07,2026-08-12 16:29:36+00:00,0.5,at_or_above_median
+qwen/qwen3.8-2.4t-a95b,Qwen: Qwen3.8 2.4T A95B,qwen,1786551702,1048576,text,text,2e-06,2026-08-12 16:21:42+00:00,2.0,at_or_above_median
+deepseek/deepseek-v4-pro-0813,DeepSeek: DeepSeek V4 Pro 0813,deepseek,1786549364,1048576,text,text,1.11e-07,2026-08-12 15:42:44+00:00,0.111,below_median
+x-ai/grok-4.6,SpaceXAI: Grok 4.6,x-ai,1786548957,500000,"text, image, file",text,2e-06,2026-08-12 15:35:57+00:00,2.0,at_or_above_median
+x-ai/grok-4.6:batch,SpaceXAI: Grok 4.6 (batch),x-ai,1786548957,500000,"text, image, file",text,1.6e-06,2026-08-12 15:35:57+00:00,1.5999999999999999,at_or_above_median
+nvidia/nemotron-3.5-lightning,NVIDIA: Nemotron 3.5 Lightning,nvidia,1786452751,262144,text,text,7e-08,2026-08-11 12:52:31+00:00,0.07,below_median
+nvidia/nemotron-3.5-lightning:free,NVIDIA: Nemotron 3.5 Lightning (free),nvidia,1786452751,1000000,text,text,0.0,2026-08-11 12:52:31+00:00,0.0,free
+sakana/sakana-namazu,Sakana: Sakana Namazu,sakana,1786410129,262144,"text, image, file",text,9.5e-07,2026-08-11 01:02:09+00:00,0.95,at_or_above_median
+upstage/solar-pro4,Upstage: Solar Pro 4,upstage,1786371636,524288,text,text,1.5e-07,2026-08-10 14:20:36+00:00,0.15,below_median
+inclusionai/ling-3.0-tiny,inclusionAI: Ling 3.0 Tiny,inclusionai,1786034890,262144,text,text,1.5e-08,2026-08-06 16:48:10+00:00,0.015,below_median
+meta/muse-spark-1.2,Meta: Muse Spark 1.2,meta,1785959287,1048576,"text, image, video, file",text,1.25e-06,2026-08-05 19:48:07+00:00,1.25,at_or_above_median
+~deepseek/deepseek-v4-flash-latest,DeepSeek: DeepSeek V4 Flash Latest,~deepseek,1785606009,1048576,text,text,4.34e-08,2026-08-01 17:40:09+00:00,0.0434,below_median
+deepseek/deepseek-v4-flash-0731,DeepSeek: DeepSeek V4 Flash 0731,deepseek,1785478908,1048576,text,text,4.34e-08,2026-07-31 06:21:48+00:00,0.0434,below_median
+deepseek/deepseek-v4-flash-0731:batch,DeepSeek: DeepSeek V4 Flash 0731 (batch),deepseek,1785478908,1048576,text,text,4.8e-08,2026-07-31 06:21:48+00:00,0.048,below_median
+thinkingmachines/inkling-small,Thinking Machines: Inkling Small,thinkingmachines,1785443117,524288,"text, image, audio",text,4.5e-07,2026-07-30 20:25:17+00:00,0.44999999999999996,at_or_above_median
+thinkingmachines/inkling-small:batch,Thinking Machines: Inkling Small (batch),thinkingmachines,1785443117,524288,"text, image, audio",text,3.6e-07,2026-07-30 20:25:17+00:00,0.36,at_or_above_median
+qwen/qwen3.7-flash,Qwen: Qwen3.7 Flash,qwen,1785190561,1000000,"text, image, video",text,3e-08,2026-07-27 22:16:01+00:00,0.03,below_median
+anthropic/claude-opus-5,Anthropic: Claude Opus 5,anthropic,1784912544,1000000,"text, image, file",text,5e-06,2026-07-24 17:02:24+00:00,5.0,at_or_above_median
+anthropic/claude-opus-5:batch,Anthropic: Claude Opus 5 (batch),anthropic,1784912544,1000000,"text, image, file",text,2.5e-06,2026-07-24 17:02:24+00:00,2.5,at_or_above_median
+inclusionai/ling-3.0-flash,inclusionAI: Ling 3.0 Flash,inclusionai,1784818580,262144,text,text,2.1e-08,2026-07-23 14:56:20+00:00,0.020999999999999998,below_median
+google/gemini-3.6-flash,Google: Gemini 3.6 Flash,google,1784646733,1048576,"text, image, video, file, audio",text,7.5e-07,2026-07-21 15:12:13+00:00,0.75,at_or_above_median
+google/gemini-3.6-flash:batch,Google: Gemini 3.6 Flash (batch),google,1784646733,1048576,"text, image, video, file, audio",text,3.75e-07,2026-07-21 15:12:13+00:00,0.375,at_or_above_median
+google/gemini-3.5-flash-lite,Google: Gemini 3.5 Flash Lite,google,1784646726,1048576,"text, image, video, file, audio",text,3e-07,2026-07-21 15:12:06+00:00,0.3,at_or_above_median
+google/gemini-3.5-flash-lite:batch,Google: Gemini 3.5 Flash Lite (batch),google,1784646726,1048576,"text, image, video, file, audio",text,1.5e-07,2026-07-21 15:12:06+00:00,0.15,below_median
+meituan/longcat-2.0,Meituan: LongCat 2.0,meituan,1784554658,1048756,text,text,3e-07,2026-07-20 13:37:38+00:00,0.3,at_or_above_median
+thinkingmachines/inkling,Thinking Machines: Inkling,thinkingmachines,1784325956,524288,"text, image, audio",text,1e-06,2026-07-17 22:05:56+00:00,1.0,at_or_above_median
+moonshotai/kimi-k3,MoonshotAI: Kimi K3,moonshotai,1784215858,1048576,"text, image, video",text,1.92e-07,2026-07-16 15:30:58+00:00,0.192,below_median
+moonshotai/kimi-k3:batch,MoonshotAI: Kimi K3 (batch),moonshotai,1784215858,1048576,"text, image, video",text,2.28e-06,2026-07-16 15:30:58+00:00,2.2800000000000002,at_or_above_median
+meta/muse-spark-1.1,Meta: Muse Spark 1.1,meta,1784215741,1048576,"text, image, video, file",text,1.25e-06,2026-07-16 15:29:01+00:00,1.25,at_or_above_median
+openai/gpt-5.6-luna-pro,OpenAI: GPT-5.6 Luna Pro,openai,1783590867,1050000,"file, image, text",text,2e-07,2026-07-09 09:54:27+00:00,0.19999999999999998,below_median
+openai/gpt-5.6-luna-pro:batch,OpenAI: GPT-5.6 Luna Pro (batch),openai,1783590867,1050000,"file, image, text",text,1e-07,2026-07-09 09:54:27+00:00,0.09999999999999999,below_median
+openai/gpt-5.6-luna,OpenAI: GPT-5.6 Luna,openai,1783590864,1050000,"file, image, text",text,2e-07,2026-07-09 09:54:24+00:00,0.19999999999999998,below_median
+openai/gpt-5.6-luna:batch,OpenAI: GPT-5.6 Luna (batch),openai,1783590864,1050000,"file, image, text",text,1e-07,2026-07-09 09:54:24+00:00,0.09999999999999999,below_median
+openai/gpt-5.6-terra-pro,OpenAI: GPT-5.6 Terra Pro,openai,1783590861,1050000,"file, image, text",text,2e-06,2026-07-09 09:54:21+00:00,2.0,at_or_above_median
+openai/gpt-5.6-terra-pro:batch,OpenAI: GPT-5.6 Terra Pro (batch),openai,1783590861,1050000,"file, image, text",text,1e-06,2026-07-09 09:54:21+00:00,1.0,at_or_above_median
+openai/gpt-5.6-terra,OpenAI: GPT-5.6 Terra,openai,1783590857,1050000,"file, image, text",text,2e-06,2026-07-09 09:54:17+00:00,2.0,at_or_above_median
+openai/gpt-5.6-terra:batch,OpenAI: GPT-5.6 Terra (batch),openai,1783590857,1050000,"file, image, text",text,1e-06,2026-07-09 09:54:17+00:00,1.0,at_or_above_median
+openai/gpt-5.6-sol-pro,OpenAI: GPT-5.6 Sol Pro,openai,1783590854,1050000,"file, image, text",text,4e-06,2026-07-09 09:54:14+00:00,4.0,at_or_above_median
+openai/gpt-5.6-sol-pro:batch,OpenAI: GPT-5.6 Sol Pro (batch),openai,1783590854,1050000,"file, image, text",text,2e-06,2026-07-09 09:54:14+00:00,2.0,at_or_above_median
+openai/gpt-5.6-sol,OpenAI: GPT-5.6 Sol,openai,1783590850,1050000,"file, image, text",text,4.4e-06,2026-07-09 09:54:10+00:00,4.4,at_or_above_median
+openai/gpt-5.6-sol:batch,OpenAI: GPT-5.6 Sol (batch),openai,1783590850,1050000,"file, image, text",text,2e-06,2026-07-09 09:54:10+00:00,2.0,at_or_above_median
+x-ai/grok-4.5,SpaceXAI: Grok 4.5,x-ai,1783523154,500000,"text, image, file",text,2e-06,2026-07-08 15:05:54+00:00,2.0,at_or_above_median
+~x-ai/grok-latest,xAI: Grok Latest,~x-ai,1783519360,500000,"text, image, file",text,2e-06,2026-07-08 14:02:40+00:00,2.0,at_or_above_median
+tencent/hy3,Tencent: Hy3,tencent,1783344048,262144,text,text,1.32e-07,2026-07-06 13:20:48+00:00,0.13199999999999998,below_median
+anthropic/claude-sonnet-5,Anthropic: Claude Sonnet 5,anthropic,1782843083,1000000,"text, image, file",text,2e-06,2026-06-30 18:11:23+00:00,2.0,at_or_above_median
+anthropic/claude-sonnet-5:batch,Anthropic: Claude Sonnet 5 (batch),anthropic,1782843083,1000000,"text, image, file",text,1e-06,2026-06-30 18:11:23+00:00,1.0,at_or_above_median
+sakana/fugu-ultra,Sakana: Fugu Ultra,sakana,1782276303,1000000,"text, image",text,5e-06,2026-06-24 04:45:03+00:00,5.0,at_or_above_median
+openai/gpt-image-2,OpenAI: GPT Image 2,openai,1782264714,400000,"text, image",image,8e-06,2026-06-24 01:31:54+00:00,8.0,at_or_above_median
+openai/gpt-image-1,OpenAI: GPT Image 1,openai,1782264713,400000,"text, image",image,1e-05,2026-06-24 01:31:53+00:00,10.0,at_or_above_median
+openai/gpt-image-1-mini,OpenAI: GPT Image 1 Mini,openai,1782264713,400000,"text, image",image,2.5e-06,2026-06-24 01:31:53+00:00,2.5,at_or_above_median
+z-ai/glm-5.2,Z.ai: GLM 5.2,z-ai,1781631930,1048576,text,text,7e-09,2026-06-16 17:45:30+00:00,0.007,below_median
+z-ai/glm-5.2:batch,Z.ai: GLM 5.2 (batch),z-ai,1781631930,1048576,text,text,3.22e-07,2026-06-16 17:45:30+00:00,0.322,at_or_above_median
+moonshotai/kimi-k2.7-code,MoonshotAI: Kimi K2.7 Code,moonshotai,1781266361,262144,"text, image",text,6e-07,2026-06-12 12:12:41+00:00,0.6,at_or_above_median
+~anthropic/claude-fable-latest,Anthropic: Claude Fable Latest,~anthropic,1781029944,1000000,"text, image, file",text,8e-06,2026-06-09 18:32:24+00:00,8.0,at_or_above_median
+anthropic/claude-fable-5,Anthropic: Claude Fable 5,anthropic,1781007515,1000000,"text, image, file",text,1e-05,2026-06-09 12:18:35+00:00,10.0,at_or_above_median
+anthropic/claude-fable-5:batch,Anthropic: Claude Fable 5 (batch),anthropic,1781007515,1000000,"text, image, file",text,5e-06,2026-06-09 12:18:35+00:00,5.0,at_or_above_median
+nvidia/nemotron-3-ultra-550b-a55b,NVIDIA: Nemotron 3 Ultra,nvidia,1780551208,262144,text,text,6e-07,2026-06-04 05:33:28+00:00,0.6,at_or_above_median
+nvidia/nemotron-3-ultra-550b-a55b:free,NVIDIA: Nemotron 3 Ultra (free),nvidia,1780551208,1000000,text,text,0.0,2026-06-04 05:33:28+00:00,0.0,free
+qwen/qwen3.7-plus,Qwen: Qwen3.7 Plus,qwen,1780491783,1000000,"text, image",text,3.2e-07,2026-06-03 13:03:03+00:00,0.32,at_or_above_median
+qwen/qwen3.7-plus:batch,Qwen: Qwen3.7 Plus (batch),qwen,1780491783,262144,"text, image",text,2.3e-07,2026-06-03 13:03:03+00:00,0.22999999999999998,below_median
+minimax/minimax-m3,MiniMax: MiniMax M3,minimax,1780245374,1048576,"text, image, video",text,3e-07,2026-05-31 16:36:14+00:00,0.3,at_or_above_median
+minimax/minimax-m3:batch,MiniMax: MiniMax M3 (batch),minimax,1780245374,524288,"text, image, video",text,2.24e-07,2026-05-31 16:36:14+00:00,0.224,below_median
+stepfun/step-3.7-flash,StepFun: Step 3.7 Flash,stepfun,1779985069,262144,"text, image, video",text,2e-07,2026-05-28 16:17:49+00:00,0.19999999999999998,below_median
+anthropic/claude-opus-4.8,Anthropic: Claude Opus 4.8,anthropic,1779905091,1000000,"text, image, file",text,5e-06,2026-05-27 18:04:51+00:00,5.0,at_or_above_median
+anthropic/claude-opus-4.8:batch,Anthropic: Claude Opus 4.8 (batch),anthropic,1779905091,1000000,"text, image, file",text,2.5e-06,2026-05-27 18:04:51+00:00,2.5,at_or_above_median
+qwen/qwen3.7-max,Qwen: Qwen3.7 Max,qwen,1779376861,1000000,text,text,1.475e-06,2026-05-21 15:21:01+00:00,1.475,at_or_above_median
+google/gemini-3.5-flash,Google: Gemini 3.5 Flash,google,1779193800,1048576,"text, image, video, file, audio",text,1.5e-06,2026-05-19 12:30:00+00:00,1.5,at_or_above_median
+google/gemini-3.5-flash:batch,Google: Gemini 3.5 Flash (batch),google,1779193800,1048576,"text, image, video, file, audio",text,7.5e-07,2026-05-19 12:30:00+00:00,0.75,at_or_above_median
+google/gemini-3.1-flash-lite,Google: Gemini 3.1 Flash Lite,google,1778168828,1048576,"text, image, video, file, audio",text,2.5e-07,2026-05-07 15:47:08+00:00,0.25,below_median
+google/gemini-3.1-flash-lite:batch,Google: Gemini 3.1 Flash Lite (batch),google,1778168828,1048576,"text, image, video, file, audio",text,1.25e-07,2026-05-07 15:47:08+00:00,0.125,below_median
+openai/gpt-chat-latest,OpenAI: GPT Chat Latest,openai,1778000212,400000,"text, image, file",text,5e-06,2026-05-05 16:56:52+00:00,5.0,at_or_above_median
+x-ai/grok-4.3,SpaceXAI: Grok 4.3,x-ai,1777591821,1000000,"text, image, file",text,1.25e-06,2026-04-30 23:30:21+00:00,1.25,at_or_above_median
+x-ai/grok-4.3:batch,SpaceXAI: Grok 4.3 (batch),x-ai,1777591821,1000000,"text, image, file",text,1e-06,2026-04-30 23:30:21+00:00,1.0,at_or_above_median
+mistralai/mistral-medium-3-5,Mistral: Mistral Medium 3.5,mistralai,1777570439,262144,"text, image, file",text,1.5e-06,2026-04-30 17:33:59+00:00,1.5,at_or_above_median
+mistralai/mistral-medium-3-5:batch,Mistral: Mistral Medium 3.5 (batch),mistralai,1777570439,262144,"text, image, file",text,7.5e-07,2026-04-30 17:33:59+00:00,0.75,at_or_above_median
+~anthropic/claude-haiku-latest,Anthropic: Claude Haiku Latest,~anthropic,1777318492,1000000,"text, image, file",text,1e-07,2026-04-27 19:34:52+00:00,0.09999999999999999,below_median
+~openai/gpt-mini-latest,OpenAI: GPT Mini Latest,~openai,1777318471,400000,"file, image, text",text,7.5e-07,2026-04-27 19:34:31+00:00,0.75,at_or_above_median
+~google/gemini-pro-latest,Google: Gemini Pro Latest,~google,1777318451,1048576,"audio, file, image, text, video",text,2e-06,2026-04-27 19:34:11+00:00,2.0,at_or_above_median
+~moonshotai/kimi-latest,MoonshotAI: Kimi Latest,~moonshotai,1777318428,1048576,"text, image, video",text,1.824e-07,2026-04-27 19:33:48+00:00,0.18239999999999998,below_median
+~google/gemini-flash-latest,Google: Gemini Flash Latest,~google,1777318398,1048576,"audio, file, image, text, video",text,1.5e-06,2026-04-27 19:33:18+00:00,1.5,at_or_above_median
+~anthropic/claude-sonnet-latest,Anthropic: Claude Sonnet Latest,~anthropic,1777318368,1000000,"text, image, file",text,2e-06,2026-04-27 19:32:48+00:00,2.0,at_or_above_median
+qwen/qwen3.5-plus-20260420,Qwen: Qwen3.5 Plus 2026-04-20,qwen,1777261368,1000000,"text, image, video",text,3e-07,2026-04-27 03:42:48+00:00,0.3,at_or_above_median
+qwen/qwen3.6-flash,Qwen: Qwen3.6 Flash,qwen,1777261362,1000000,"text, image, video",text,1.875e-07,2026-04-27 03:42:42+00:00,0.1875,below_median
+qwen/qwen3.6-35b-a3b,Qwen: Qwen3.6 35B A3B,qwen,1777260255,262144,"text, image, video",text,1e-07,2026-04-27 03:24:15+00:00,0.09999999999999999,below_median
+qwen/qwen3.6-27b,Qwen: Qwen3.6 27B,qwen,1777255064,262144,"text, image, video",text,3.2e-07,2026-04-27 01:57:44+00:00,0.32,at_or_above_median
+openai/gpt-5.5-pro,OpenAI: GPT-5.5 Pro,openai,1777051896,1050000,"file, image, text",text,3e-05,2026-04-24 17:31:36+00:00,30.0,at_or_above_median
+openai/gpt-5.5-pro:batch,OpenAI: GPT-5.5 Pro (batch),openai,1777051896,1050000,"file, image, text",text,1.5e-05,2026-04-24 17:31:36+00:00,15.0,at_or_above_median
+openai/gpt-5.5,OpenAI: GPT-5.5,openai,1777051893,1050000,"file, image, text",text,5e-06,2026-04-24 17:31:33+00:00,5.0,at_or_above_median
+openai/gpt-5.5:batch,OpenAI: GPT-5.5 (batch),openai,1777051893,1050000,"file, image, text",text,2.5e-06,2026-04-24 17:31:33+00:00,2.5,at_or_above_median
+deepseek/deepseek-v4-pro,DeepSeek: DeepSeek V4 Pro 0423,deepseek,1777000679,1048576,text,text,9e-07,2026-04-24 03:17:59+00:00,0.8999999999999999,at_or_above_median
+deepseek/deepseek-v4-flash,DeepSeek: DeepSeek V4 Flash 0423,deepseek,1777000666,1048576,text,text,9e-08,2026-04-24 03:17:46+00:00,0.09,below_median
+tencent/hy3-preview,Tencent: Hy3 preview,tencent,1776878150,262144,text,text,1.8e-07,2026-04-22 17:15:50+00:00,0.18,below_median
+xiaomi/mimo-v2.5-pro,Xiaomi: MiMo-V2.5-Pro,xiaomi,1776874273,1024000,text,text,4.35e-07,2026-04-22 16:11:13+00:00,0.435,at_or_above_median
+xiaomi/mimo-v2.5,Xiaomi: MiMo-V2.5,xiaomi,1776874269,1000000,"text, audio, image, video",text,4e-07,2026-04-22 16:11:09+00:00,0.39999999999999997,at_or_above_median
+openai/gpt-5.4-image-2,OpenAI: GPT-5.4 Image 2,openai,1776797528,272000,"image, text, file","image, text",8e-06,2026-04-21 18:52:08+00:00,8.0,at_or_above_median
+~anthropic/claude-opus-latest,Anthropic: Claude Opus Latest,~anthropic,1776795361,1000000,"text, image, file",text,4e-06,2026-04-21 18:16:01+00:00,4.0,at_or_above_median
+moonshotai/kimi-k2.6,MoonshotAI: Kimi K2.6,moonshotai,1776699402,262144,"text, image",text,6.5e-07,2026-04-20 15:36:42+00:00,0.65,at_or_above_median
+anthropic/claude-opus-4.7,Anthropic: Claude Opus 4.7,anthropic,1776351100,1000000,"text, image, file",text,5e-06,2026-04-16 14:51:40+00:00,5.0,at_or_above_median
+anthropic/claude-opus-4.7:batch,Anthropic: Claude Opus 4.7 (batch),anthropic,1776351100,1000000,"text, image, file",text,2.5e-06,2026-04-16 14:51:40+00:00,2.5,at_or_above_median
+google/gemma-4-26b-a4b-it,Google: Gemma 4 26B A4B ,google,1775227989,262144,"image, text, video",text,9e-08,2026-04-03 14:53:09+00:00,0.09,below_median
+google/gemma-4-26b-a4b-it:free,Google: Gemma 4 26B A4B  (free),google,1775227989,262144,"image, text, video",text,0.0,2026-04-03 14:53:09+00:00,0.0,free
+google/gemma-4-31b-it,Google: Gemma 4 31B,google,1775148486,262144,"image, text, video",text,2e-07,2026-04-02 16:48:06+00:00,0.19999999999999998,below_median
+google/gemma-4-31b-it:free,Google: Gemma 4 31B (free),google,1775148486,262144,"image, text, video",text,0.0,2026-04-02 16:48:06+00:00,0.0,free
+qwen/qwen3.6-plus,Qwen: Qwen3.6 Plus,qwen,1775133557,1000000,"text, image, video",text,3.25e-07,2026-04-02 12:39:17+00:00,0.325,at_or_above_median
+x-ai/grok-4.20-multi-agent,SpaceXAI: Grok 4.20 Multi-Agent,x-ai,1774979158,2000000,"text, image, file",text,1.25e-06,2026-03-31 17:45:58+00:00,1.25,at_or_above_median
+x-ai/grok-4.20,SpaceXAI: Grok 4.20,x-ai,1774979019,2000000,"text, image, file",text,1.25e-06,2026-03-31 17:43:39+00:00,1.25,at_or_above_median
+google/lyria-3-pro-preview,Google: Lyria 3 Pro Preview,google,1774907286,1048576,"text, image","text, audio",0.0,2026-03-30 21:48:06+00:00,0.0,free
+google/lyria-3-clip-preview,Google: Lyria 3 Clip Preview,google,1774907255,1048576,"text, image","text, audio",0.0,2026-03-30 21:47:35+00:00,0.0,free
+openai/gpt-5.4-nano,OpenAI: GPT-5.4 Nano,openai,1773748187,400000,"file, image, text",text,2e-07,2026-03-17 11:49:47+00:00,0.19999999999999998,below_median
+openai/gpt-5.4-nano:batch,OpenAI: GPT-5.4 Nano (batch),openai,1773748187,400000,"file, image, text",text,1e-07,2026-03-17 11:49:47+00:00,0.09999999999999999,below_median
+openai/gpt-5.4-mini,OpenAI: GPT-5.4 Mini,openai,1773748178,400000,"file, image, text",text,7.5e-07,2026-03-17 11:49:38+00:00,0.75,at_or_above_median
+openai/gpt-5.4-mini:batch,OpenAI: GPT-5.4 Mini (batch),openai,1773748178,400000,"file, image, text",text,3.75e-07,2026-03-17 11:49:38+00:00,0.375,at_or_above_median
+mistralai/mistral-small-2603,Mistral: Mistral Small 4,mistralai,1773695685,262144,"text, image",text,1.5e-07,2026-03-16 21:14:45+00:00,0.15,below_median
+nvidia/nemotron-3-super-120b-a12b,NVIDIA: Nemotron 3 Super,nvidia,1773245239,262144,text,text,7.5e-08,2026-03-11 16:07:19+00:00,0.075,below_median
+bytedance-seed/seed-2.0-lite,ByteDance Seed: Seed-2.0-Lite,bytedance-seed,1773157231,262144,"text, image, video",text,2.5e-07,2026-03-10 15:40:31+00:00,0.25,below_median
+qwen/qwen3.5-9b,Qwen: Qwen3.5-9B,qwen,1773152396,262144,"text, image, video",text,2.7e-08,2026-03-10 14:19:56+00:00,0.027,below_median
+openai/gpt-5.4-pro,OpenAI: GPT-5.4 Pro,openai,1772734366,1050000,"text, image, file",text,3e-05,2026-03-05 18:12:46+00:00,30.0,at_or_above_median
+openai/gpt-5.4-pro:batch,OpenAI: GPT-5.4 Pro (batch),openai,1772734366,1050000,"text, image, file",text,1.5e-05,2026-03-05 18:12:46+00:00,15.0,at_or_above_median
+openai/gpt-5.4,OpenAI: GPT-5.4,openai,1772734352,1050000,"text, image, file",text,2.5e-06,2026-03-05 18:12:32+00:00,2.5,at_or_above_median
+openai/gpt-5.4:batch,OpenAI: GPT-5.4 (batch),openai,1772734352,1050000,"text, image, file",text,1.25e-06,2026-03-05 18:12:32+00:00,1.25,at_or_above_median
+google/gemini-3.1-flash-lite-preview,Google: Gemini 3.1 Flash Lite Preview,google,1772512673,1048576,"text, image, video, file, audio",text,2.5e-07,2026-03-03 04:37:53+00:00,0.25,below_median
+bytedance-seed/seed-2.0-mini,ByteDance Seed: Seed-2.0-Mini,bytedance-seed,1772131107,262144,"text, image, video",text,1e-07,2026-02-26 18:38:27+00:00,0.09999999999999999,below_median
+qwen/qwen3.5-35b-a3b,Qwen: Qwen3.5-35B-A3B,qwen,1772053822,262144,"text, image, video",text,1.4e-07,2026-02-25 21:10:22+00:00,0.14,below_median
+qwen/qwen3.5-27b,Qwen: Qwen3.5-27B,qwen,1772053810,262144,"text, image, video",text,2.6e-07,2026-02-25 21:10:10+00:00,0.26,below_median
+qwen/qwen3.5-122b-a10b,Qwen: Qwen3.5-122B-A10B,qwen,1772053789,262144,"text, image, video",text,2.6e-07,2026-02-25 21:09:49+00:00,0.26,below_median
+qwen/qwen3.5-flash-02-23,Qwen: Qwen3.5-Flash,qwen,1772053776,1000000,"text, image, video",text,6.5e-08,2026-02-25 21:09:36+00:00,0.065,below_median
+google/gemini-3.1-pro-preview-customtools,Google: Gemini 3.1 Pro Preview Custom Tools,google,1772045923,1048576,"text, audio, image, video, file",text,2e-06,2026-02-25 18:58:43+00:00,2.0,at_or_above_median
+openai/gpt-5.3-codex,OpenAI: GPT-5.3-Codex,openai,1771959164,400000,"text, image, file",text,1.75e-06,2026-02-24 18:52:44+00:00,1.75,at_or_above_median
+google/gemini-3.1-pro-preview,Google: Gemini 3.1 Pro Preview,google,1771509627,1048576,"audio, file, image, text, video",text,2e-06,2026-02-19 14:00:27+00:00,2.0,at_or_above_median
+google/gemini-3.1-pro-preview:batch,Google: Gemini 3.1 Pro Preview (batch),google,1771509627,1048576,"audio, file, image, text, video",text,1e-06,2026-02-19 14:00:27+00:00,1.0,at_or_above_median
+anthropic/claude-sonnet-4.6,Anthropic: Claude Sonnet 4.6,anthropic,1771342990,1000000,"text, image, file",text,3e-06,2026-02-17 15:43:10+00:00,3.0,at_or_above_median
+anthropic/claude-sonnet-4.6:batch,Anthropic: Claude Sonnet 4.6 (batch),anthropic,1771342990,1000000,"text, image, file",text,1.5e-06,2026-02-17 15:43:10+00:00,1.5,at_or_above_median
+qwen/qwen3.5-plus-02-15,Qwen: Qwen3.5 Plus 2026-02-15,qwen,1771229416,1000000,"text, image, video",text,2.6e-07,2026-02-16 08:10:16+00:00,0.26,below_median
+qwen/qwen3.5-397b-a17b,Qwen: Qwen3.5 397B A17B,qwen,1771223018,262144,"text, image, video",text,6e-07,2026-02-16 06:23:38+00:00,0.6,at_or_above_median
+anthropic/claude-opus-4.6,Anthropic: Claude Opus 4.6,anthropic,1770219050,1000000,"text, image, file",text,5e-06,2026-02-04 15:30:50+00:00,5.0,at_or_above_median
+anthropic/claude-opus-4.6:batch,Anthropic: Claude Opus 4.6 (batch),anthropic,1770219050,1000000,"text, image, file",text,2.5e-06,2026-02-04 15:30:50+00:00,2.5,at_or_above_median
+qwen/qwen3-coder-next,Qwen: Qwen3 Coder Next,qwen,1770164101,262144,text,text,1.2e-07,2026-02-04 00:15:01+00:00,0.12,below_median
+stepfun/step-3.5-flash,StepFun: Step 3.5 Flash,stepfun,1769728337,262144,text,text,1e-07,2026-01-29 23:12:17+00:00,0.09999999999999999,below_median
+moonshotai/kimi-k2.5,MoonshotAI: Kimi K2.5,moonshotai,1769487076,262144,"text, image",text,5e-07,2026-01-27 04:11:16+00:00,0.5,at_or_above_median
+writer/palmyra-x5,Writer: Palmyra X5,writer,1769003823,1040000,text,text,6e-07,2026-01-21 13:57:03+00:00,0.6,at_or_above_median
+openai/gpt-5.2-codex,OpenAI: GPT-5.2-Codex,openai,1768409315,400000,"text, image",text,1.75e-06,2026-01-14 16:48:35+00:00,1.75,at_or_above_median
+google/gemini-3-flash-preview,Google: Gemini 3 Flash Preview,google,1765987078,1048576,"text, image, file, audio, video",text,5e-07,2025-12-17 15:57:58+00:00,0.5,at_or_above_median
+google/gemini-3-flash-preview:batch,Google: Gemini 3 Flash Preview (batch),google,1765987078,1048576,"text, image, file, audio, video",text,2.5e-07,2025-12-17 15:57:58+00:00,0.25,below_median
+nvidia/nemotron-3-nano-30b-a3b,NVIDIA: Nemotron 3 Nano 30B A3B,nvidia,1765731275,262144,text,text,6e-08,2025-12-14 16:54:35+00:00,0.06,below_median
+openai/gpt-5.2-pro,OpenAI: GPT-5.2 Pro,openai,1765389780,400000,"image, text, file",text,2.1e-05,2025-12-10 18:03:00+00:00,21.0,at_or_above_median
+openai/gpt-5.2-pro:batch,OpenAI: GPT-5.2 Pro (batch),openai,1765389780,400000,"image, text, file",text,1.05e-05,2025-12-10 18:03:00+00:00,10.5,at_or_above_median
+openai/gpt-5.2,OpenAI: GPT-5.2,openai,1765389775,400000,"file, image, text",text,1.75e-06,2025-12-10 18:02:55+00:00,1.75,at_or_above_median
+openai/gpt-5.2:batch,OpenAI: GPT-5.2 (batch),openai,1765389775,400000,"file, image, text",text,8.75e-07,2025-12-10 18:02:55+00:00,0.875,at_or_above_median
+mistralai/devstral-2512,Mistral: Devstral 2 2512,mistralai,1765285419,262144,"text, file",text,4e-07,2025-12-09 13:03:39+00:00,0.39999999999999997,at_or_above_median
+openai/gpt-5.1-codex-max,OpenAI: GPT-5.1-Codex-Max,openai,1764878934,400000,"text, image",text,1.25e-06,2025-12-04 20:08:54+00:00,1.25,at_or_above_median
+amazon/nova-2-lite-v1,Amazon: Nova 2 Lite,amazon,1764696672,1000000,"text, image, video, file",text,3e-07,2025-12-02 17:31:12+00:00,0.3,at_or_above_median
+mistralai/ministral-14b-2512,Mistral: Ministral 3 14B 2512,mistralai,1764681735,262144,"text, image",text,2e-07,2025-12-02 13:22:15+00:00,0.19999999999999998,below_median
+mistralai/ministral-8b-2512,Mistral: Ministral 3 8B 2512,mistralai,1764681654,262144,"text, image",text,1.5e-07,2025-12-02 13:20:54+00:00,0.15,below_median
+mistralai/mistral-large-2512,Mistral: Mistral Large 3 2512,mistralai,1764624472,262144,"text, image, file",text,5e-07,2025-12-01 21:27:52+00:00,0.5,at_or_above_median
+openai/gpt-5.1,OpenAI: GPT-5.1,openai,1763060305,400000,"image, text, file",text,1.25e-06,2025-11-13 18:58:25+00:00,1.25,at_or_above_median
+openai/gpt-5.1:batch,OpenAI: GPT-5.1 (batch),openai,1763060305,400000,"image, text, file",text,6.25e-07,2025-11-13 18:58:25+00:00,0.625,at_or_above_median
+openai/gpt-5.1-codex,OpenAI: GPT-5.1-Codex,openai,1763060298,400000,"text, image",text,1.25e-06,2025-11-13 18:58:18+00:00,1.25,at_or_above_median
+openai/gpt-5.1-codex-mini,OpenAI: GPT-5.1-Codex-Mini,openai,1763057820,400000,"image, text",text,2.5e-07,2025-11-13 18:17:00+00:00,0.25,below_median
+moonshotai/kimi-k2-thinking,MoonshotAI: Kimi K2 Thinking,moonshotai,1762440622,262144,text,text,6e-07,2025-11-06 14:50:22+00:00,0.6,at_or_above_median
+amazon/nova-premier-v1,Amazon: Nova Premier 1.0,amazon,1761950332,1000000,"text, image",text,2.5e-06,2025-10-31 22:38:52+00:00,2.5,at_or_above_median
+openai/gpt-5-image-mini,OpenAI: GPT-5 Image Mini,openai,1760624583,400000,"file, image, text","image, text",2.5e-06,2025-10-16 14:23:03+00:00,2.5,at_or_above_median
+qwen/qwen3-vl-8b-instruct,Qwen: Qwen3 VL 8B Instruct,qwen,1760463308,262144,"image, text",text,2.5e-07,2025-10-14 17:35:08+00:00,0.25,below_median
+openai/gpt-5-image,OpenAI: GPT-5 Image,openai,1760447986,400000,"image, text, file","image, text",1e-05,2025-10-14 13:19:46+00:00,10.0,at_or_above_median
+qwen/qwen3-vl-30b-a3b-thinking,Qwen: Qwen3 VL 30B A3B Thinking,qwen,1759794479,262144,"text, image",text,2.9e-07,2025-10-06 23:47:59+00:00,0.29,at_or_above_median
+qwen/qwen3-vl-30b-a3b-instruct,Qwen: Qwen3 VL 30B A3B Instruct,qwen,1759794476,262144,"text, image",text,1.5e-07,2025-10-06 23:47:56+00:00,0.15,below_median
+openai/gpt-5-pro,OpenAI: GPT-5 Pro,openai,1759776663,400000,"image, text, file",text,1.5e-05,2025-10-06 18:51:03+00:00,15.0,at_or_above_median
+openai/gpt-5-pro:batch,OpenAI: GPT-5 Pro (batch),openai,1759776663,400000,"image, text, file",text,7.5e-06,2025-10-06 18:51:03+00:00,7.5,at_or_above_median
+anthropic/claude-sonnet-4.5,Anthropic: Claude Sonnet 4.5,anthropic,1759161676,1000000,"text, image, file",text,3e-06,2025-09-29 16:01:16+00:00,3.0,at_or_above_median
+anthropic/claude-sonnet-4.5:batch,Anthropic: Claude Sonnet 4.5 (batch),anthropic,1759161676,1000000,"text, image, file",text,1.5e-06,2025-09-29 16:01:16+00:00,1.5,at_or_above_median
+qwen/qwen3-vl-235b-a22b-instruct,Qwen: Qwen3 VL 235B A22B Instruct,qwen,1758668687,262144,"text, image",text,2.1e-07,2025-09-23 23:04:47+00:00,0.21,below_median
+qwen/qwen3-coder-flash,Qwen: Qwen3 Coder Flash,qwen,1758115536,1000000,text,text,1.95e-07,2025-09-17 13:25:36+00:00,0.195,below_median
+qwen/qwen3-next-80b-a3b-instruct,Qwen: Qwen3 Next 80B A3B Instruct,qwen,1757612213,262144,text,text,9e-08,2025-09-11 17:36:53+00:00,0.09,below_median
+moonshotai/kimi-k2-0905,MoonshotAI: Kimi K2 0905,moonshotai,1757021147,262144,text,text,6e-07,2025-09-04 21:25:47+00:00,0.6,at_or_above_median
+openai/gpt-5,OpenAI: GPT-5,openai,1754587413,400000,"text, image, file",text,1.25e-06,2025-08-07 17:23:33+00:00,1.25,at_or_above_median
+openai/gpt-5:batch,OpenAI: GPT-5 (batch),openai,1754587413,400000,"text, image, file",text,6.25e-07,2025-08-07 17:23:33+00:00,0.625,at_or_above_median
+openai/gpt-5-mini,OpenAI: GPT-5 Mini,openai,1754587407,400000,"text, image, file",text,2.5e-07,2025-08-07 17:23:27+00:00,0.25,below_median
+openai/gpt-5-mini:batch,OpenAI: GPT-5 Mini (batch),openai,1754587407,400000,"text, image, file",text,1.25e-07,2025-08-07 17:23:27+00:00,0.125,below_median
+openai/gpt-5-nano,OpenAI: GPT-5 Nano,openai,1754587402,400000,"text, image, file",text,5e-08,2025-08-07 17:23:22+00:00,0.049999999999999996,below_median
+openai/gpt-5-nano:batch,OpenAI: GPT-5 Nano (batch),openai,1754587402,400000,"text, image, file",text,2.5e-08,2025-08-07 17:23:22+00:00,0.024999999999999998,below_median
+qwen/qwen3-coder-30b-a3b-instruct,Qwen: Qwen3 Coder 30B A3B Instruct,qwen,1753972379,262144,text,text,1.5e-07,2025-07-31 14:32:59+00:00,0.15,below_median
+qwen/qwen3-30b-a3b-instruct-2507,Qwen: Qwen3 30B A3B Instruct 2507,qwen,1753806965,262144,text,text,1e-07,2025-07-29 16:36:05+00:00,0.09999999999999999,below_median
+qwen/qwen3-coder,Qwen: Qwen3 Coder 480B A35B,qwen,1753230546,262144,text,text,3e-07,2025-07-23 00:29:06+00:00,0.3,at_or_above_median
+google/gemini-2.5-flash-lite,Google: Gemini 2.5 Flash Lite,google,1753200276,1048576,"text, image, file, audio, video",text,1e-07,2025-07-22 16:04:36+00:00,0.09999999999999999,below_median
+qwen/qwen3-235b-a22b-2507,Qwen: Qwen3 235B A22B Instruct 2507,qwen,1753119555,262144,text,text,1.4e-07,2025-07-21 17:39:15+00:00,0.14,below_median
+morph/morph-v3-large,Morph: Morph V3 Large,morph,1751910858,262144,text,text,9e-07,2025-07-07 17:54:18+00:00,0.8999999999999999,at_or_above_median
+morph/morph-v3-large:batch,Morph: Morph V3 Large (batch),morph,1751910858,262144,text,text,4.5e-07,2025-07-07 17:54:18+00:00,0.44999999999999996,at_or_above_median
+morph/morph-v3-fast,Morph: Morph V3 Fast,morph,1751910002,262144,text,text,8e-07,2025-07-07 17:40:02+00:00,0.7999999999999999,at_or_above_median
+google/gemini-2.5-flash,Google: Gemini 2.5 Flash,google,1750172488,1048576,"file, image, text, audio, video",text,3e-07,2025-06-17 15:01:28+00:00,0.3,at_or_above_median
+google/gemini-2.5-pro,Google: Gemini 2.5 Pro,google,1750169544,1048576,"text, image, file, audio, video",text,1.25e-06,2025-06-17 14:12:24+00:00,1.25,at_or_above_median
+google/gemini-2.5-pro-preview,Google: Gemini 2.5 Pro Preview 06-05,google,1749137257,1048576,"file, image, text, audio",text,1.25e-06,2025-06-05 15:27:37+00:00,1.25,at_or_above_median
+openai/gpt-4.1,OpenAI: GPT-4.1,openai,1744651385,1047576,"image, text, file",text,2e-06,2025-04-14 17:23:05+00:00,2.0,at_or_above_median
+openai/gpt-4.1:batch,OpenAI: GPT-4.1 (batch),openai,1744651385,1047576,"image, text, file",text,1e-06,2025-04-14 17:23:05+00:00,1.0,at_or_above_median
+openai/gpt-4.1-mini,OpenAI: GPT-4.1 Mini,openai,1744651381,1047576,"image, text, file",text,4e-07,2025-04-14 17:23:01+00:00,0.39999999999999997,at_or_above_median
+openai/gpt-4.1-mini:batch,OpenAI: GPT-4.1 Mini (batch),openai,1744651381,1047576,"image, text, file",text,2e-07,2025-04-14 17:23:01+00:00,0.19999999999999998,below_median
+openai/gpt-4.1-nano,OpenAI: GPT-4.1 Nano,openai,1744651369,1047576,"image, text, file",text,1e-07,2025-04-14 17:22:49+00:00,0.09999999999999999,below_median
+openai/gpt-4.1-nano:batch,OpenAI: GPT-4.1 Nano (batch),openai,1744651369,1047576,"image, text, file",text,5e-08,2025-04-14 17:22:49+00:00,0.049999999999999996,below_median
+meta-llama/llama-4-maverick,Meta: Llama 4 Maverick,meta-llama,1743881822,524288,"text, image",text,3.5e-07,2025-04-05 19:37:02+00:00,0.35,at_or_above_median
+meta-llama/llama-4-scout,Meta: Llama 4 Scout,meta-llama,1743881519,1310720,"text, image",text,1e-07,2025-04-05 19:31:59+00:00,0.09999999999999999,below_median
+qwen/qwen-plus,Qwen: Qwen-Plus,qwen,1738409840,1000000,text,text,2.6e-07,2025-02-01 11:37:20+00:00,0.26,below_median
+amazon/nova-lite-v1,Amazon: Nova Lite 1.0,amazon,1733437363,300000,"text, image",text,6e-08,2024-12-05 22:22:43+00:00,0.06,below_median
+amazon/nova-pro-v1,Amazon: Nova Pro 1.0,amazon,1733436303,300000,"text, image",text,8e-07,2024-12-05 22:05:03+00:00,0.7999999999999999,at_or_above_median
+thedrummer/unslopnemo-12b,TheDrummer: UnslopNemo 12B,thedrummer,1731103448,1024000,text,text,4e-07,2024-11-08 22:04:08+00:00,0.39999999999999997,at_or_above_median

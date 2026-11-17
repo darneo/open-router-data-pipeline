@@ -1,0 +1,59 @@
+[
+  {
+    "test_case": "empty model id",
+    "expected_rule": "model_id",
+    "detected": true,
+    "errors": [
+      "model_id: "
+    ],
+    "test_record": {
+      "model_id": "",
+      "name": "HeyGen: HeyGen Decision Turbo",
+      "provider": "heygen",
+      "created": 1794530513,
+      "context_length": 262144,
+      "input_modalities": "text, image",
+      "output_modalities": "decisions",
+      "prompt_price": 9e-08
+    },
+    "excluded_from_final_dataset": true
+  },
+  {
+    "test_case": "non-positive context",
+    "expected_rule": "context_length",
+    "detected": true,
+    "errors": [
+      "context_length: 0"
+    ],
+    "test_record": {
+      "model_id": "heygen/heygen-decision-1-turbo",
+      "name": "HeyGen: HeyGen Decision Turbo",
+      "provider": "heygen",
+      "created": 1794530513,
+      "context_length": 0,
+      "input_modalities": "text, image",
+      "output_modalities": "decisions",
+      "prompt_price": 9e-08
+    },
+    "excluded_from_final_dataset": true
+  },
+  {
+    "test_case": "negative prompt price",
+    "expected_rule": "prompt_price",
+    "detected": true,
+    "errors": [
+      "prompt_price: -1.0"
+    ],
+    "test_record": {
+      "model_id": "heygen/heygen-decision-1-turbo",
+      "name": "HeyGen: HeyGen Decision Turbo",
+      "provider": "heygen",
+      "created": 1794530513,
+      "context_length": 262144,
+      "input_modalities": "text, image",
+      "output_modalities": "decisions",
+      "prompt_price": -1.0
+    },
+    "excluded_from_final_dataset": true
+  }
+]
